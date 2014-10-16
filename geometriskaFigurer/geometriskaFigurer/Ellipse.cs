@@ -31,5 +31,10 @@ namespace geometriskaFigurer
         {
             
         }
+
+        public Ellipse(double length, double width) : base(length, width)
+        {
+
+        }
     }
 }

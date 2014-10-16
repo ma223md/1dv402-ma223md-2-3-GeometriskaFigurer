@@ -69,7 +69,8 @@ namespace geometriskaFigurer
         // metoden ToString() publik, överskuggar den som finns i basklassen object. Ska returnera en sträng representerande värdet av en instans
         public override string ToString()
         {
-            return null;
+            string str = string.Format("Höjd   : {0, 10:f} \nBredd  : {1, 10:f} \nOmkrets: {2, 10:f} \nArea   : {3, 10:f}", Length, Width, Perimeter, Area);
+            return str;
         }
     }
     

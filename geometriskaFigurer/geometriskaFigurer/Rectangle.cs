@@ -25,5 +25,10 @@ namespace geometriskaFigurer
         {
             
         }
+
+        public Rectangle(double length, double width) : base(length, width)
+        {
+
+        }
     }
 }
